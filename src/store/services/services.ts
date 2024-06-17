@@ -33,7 +33,7 @@ export const weatherApi = createApi({
   reducerPath: 'weatherApi',
   baseQuery: fetchBaseQuery({
     baseUrl: `
-    http://api.weatherapi.com/v1/`,
+    https://api.weatherapi.com/v1/`,
   }),
   endpoints: (builder) => ({
     getWeatherByCity: builder.query<any, string>({
