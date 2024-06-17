@@ -1,0 +1,24 @@
+.header {
+  padding-top: 36px;
+  &__info-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__time {
+    font-size: 18px;
+    line-height: 14px;
+  }
+  &__city {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  &__search {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    background: none;
+    color: inherit;
+    @include font;
+  }
+}

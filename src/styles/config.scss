@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'PingFang SC Regular';
+  src: url('https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.eot');
+  src: url('https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.svg#PingFang SC Regular')
+      format('svg');
+}
+@mixin font {
+  font-family: 'PingFang SC Regular';
+  font-weight: 500;
+}
+
+body {
+  @include font;
+}
+
+a {
+  outline: 0;
+  border: none;
+  text-decoration: none;
+}
+
+.evening {
+  background: #1d2837;
+  color: white;
+}
+
+.night {
+  background: #16191f;
+  color: white;
+}
+
+.day {
+  background: linear-gradient(180deg, #bce8ff 0%, #ffffff 41.26%);
+}
+.afternoon {
+  background: linear-gradient(92deg, #2f5af4 0%, #0fa2ab 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

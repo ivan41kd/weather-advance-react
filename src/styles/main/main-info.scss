@@ -1,0 +1,41 @@
+.main-info {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__weather {
+    font-size: 24px;
+    margin-bottom: 26px;
+  }
+  &__temp {
+    font-family: 'Inter', sans-serif;
+    color: inherit;
+    font-size: 48px;
+    margin-bottom: 39px;
+  }
+  &__icon {
+    width: 144px;
+  }
+  &__graph {
+    margin-bottom: 48px;
+  }
+  &__forecast-wrapper {
+    display: flex;
+  }
+  &__forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    transition: 0.5s;
+  }
+  &__forecast:nth-child(3) {
+    margin-right: 0;
+  }
+  &__forecast:hover {
+    transition: 0.5s;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.04);
+  }
+}
